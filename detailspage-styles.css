@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    width: 100%;
+    padding: 15px;
+}
+
+
+
+
+
+.navbar .left{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.navbar .kiri{
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+
+.left .logo{
+    padding-left: 34px;
+    font-size: 25px;
+    color: red;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 35px;
+}
+
+
+.navbar .right{
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+.fa-regular{
+    transition: 0.2s;
+    border: white solid;
+    padding: 10px 11px;
+    border-radius: 50%;
+  }
+  
+.fa-regular:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
+.content {
+    width: 100%;
+    height: 115vh;
+    background: linear-gradient(to top, #000000 0%, transparent 100%), url(breaking-bad.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    
+
+}
+
+
+
+.desc{
+    margin-top: -30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.desc .desc-left{
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px;
+    color: white;
+    width: 40%;
+    
+    margin-left: 5vw;
+}
+.desc-left .episode{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.desc-left h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+}   
+
+.desc-left .fas{
+    color: yellow;
+}
+
+.genre{
+    display: flex;
+
+}
+
+.genre .genres{
+
+    margin-top: 5px;
+    padding: 3px;
+    background-color: none;
+    margin-right: 5px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: white solid;
+}
+
+.play-button{
+    background-color: white;
+    color: black;
+    width: max-content;
+    margin-top: 30px;
+    padding: 15px 23px;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: white solid;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+
+
+.play-button:hover{
+    
+    background: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.desc .desc-right{
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px;
+    color: white;
+    width: 40%;
+    margin-right: 5vw;
+
+}
+
+
+.desc-right .posterpic{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.desc-right .posterpic img{
+    margin-right: 9px;
+    border-radius: 3px;
+
+    width: 18vw;
+    height: 6vw;
+}
+.poster{
+    margin-bottom: 16px;
+}
+
+.poster h3{
+    margin-bottom: 10px;
+}
+
+.actor h3{
+    margin-bottom: 10px;
+}
+
+.actor .actor-pics{
+    display:flex;
+    width: max-content;
+}
+
+.actor-pics img{
+    width: 70px;
+    height: 70px;
+    
+    border-radius: 50%;
+}
+
+.actor-img{
+    object-fit: cover;
+}
+
+.actor-pics .cast{
+    display: grid;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.episodes{
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    padding: 5vw 7vw;
+
+
+}
+
+.season{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    width: max-content;
+    background-color: #404040;
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: 2px;
+    
+
+}
+
+.movie-episode{
+    background-color: rgba(74, 74, 74, 0);
+    display: flex;
+    margin-top: 20px;
+    border-top: #404040 solid;
+    border-bottom: #404040 solid;
+    
+}
+
+.movie-left1{
+    background: url(eps1.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    
+}
+.movie-left2{
+    background: url(eps2.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    
+}
+.movie-left3{
+    background: url(eps3.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    
+}
+.movie-left4{
+    background: url(eps4.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    
+}
+
+.movie-left5{
+    background: url(eps5.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17vw;
+    
+}
+
+.fad{
+    margin: 25%;
+    font-size: 2.4vw;
+    
+}
+
+.movie-right{
+    padding: 20px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.movie-desc{
+    width: 80%;
+}
+
+.movie-desc h3{
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 12px;
+}

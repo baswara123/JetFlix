@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Outfit';
+}
+
+.navbar{
+  z-index: 99;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  /* justify-content: space-between; */
+  background-color: none;
+  width: 100%;
+  padding: 15px;
+}
+
+
+
+
+
+.navbar .left{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.navigation{
+  margin-left: 20px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.navbar .kiri{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.left .logo{
+  padding-left: 34px;
+  font-size: 25px;
+  color: red;
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 35px;
+}
+
+
+.navbar .right{
+  font-size: 25px;
+  text-align: start;
+}
+
+.fa-regular{
+  transition: 0.2s;
+  border: white solid;
+  padding: 10px 11px;
+  border-radius: 50%;
+}
+
+.fa-regular:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.fa-regular:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.trailer {
+  background-image: linear-gradient(to top, #000000 15%, transparent 100%), url(breaking-bad.jpg); 
+  background-position: center 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  padding-left: 5vw;
+
+  height: 47vw;
+}
+/* #F9D342 */
+
+.title-button{
+  color: rgb(255, 255, 255);
+  margin-left: 4vw;
+  margin-top: -22vw;
+
+  height: fit-content;
+}
+
+.synopsis{
+  font-size: 16px;
+  margin-bottom: 27px;
+  width: 60%;
+}
+
+.trailer-title{
+
+  font-size: 50px;
+  
+}
+
+.play{
+  
+  /* margin-left: 20px; */
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: none;
+  border: white solid;
+  border-radius: 7px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+.movies {
+  position: relative;
+  padding: 40px;
+  
+}
+
+.tampung{
+  width: 100%;
+}
+
+.movies .category {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  
+}
+
+.movies .movie-list {
+  margin-bottom: 3vw;
+  height: 10vw;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.movies .movie-image {
+  transition: 0.8s;
+  display: block;
+  width: auto;
+  
+  border-radius: 2px;
+}
+
+.movies .movie-image:hover {
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+
+
